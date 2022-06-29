@@ -31,15 +31,13 @@ input[type='checkbox'], .bi-moon, .dark .bi-sun {
     background-color: #1b3c52;
 }
 
-.dark i:hover {
+i, .dark i:hover {
     border: #4ba9e9 solid;    
     background-color: #4ba9e9;
 }
 
-i {
-    border: #4ba9e9 solid;
-    padding: 5px;
-    background-color: #4ba9e9;
+i {    
+    padding: 5px;    
 }
 
 i:hover {
@@ -55,7 +53,6 @@ i:hover {
 .dark .bi-moon {
     display: block;
 }
-
 
 
 /* dark theme */
@@ -180,7 +177,7 @@ body {
     line-height: 1em;
 }
 
-.dark .card .details h4 {
+.dark .card .details h4, .dark .card .details p  {
     color: rgb(175, 165, 165);
 }
 
@@ -190,9 +187,6 @@ body {
     font-size: 0.8em;
 }
 
-.dark .card .details p {
-    color: rgb(175, 165, 165);
-}
 
 .card .details .size {
     display: flex;
