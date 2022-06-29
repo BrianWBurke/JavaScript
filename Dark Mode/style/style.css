@@ -156,9 +156,7 @@ body {
     line-height: 1em;
 }
 
-.dark .details h3 {
-    color: rgb(175, 165, 165);
-}
+
 
 .card .details h3 span {
     font-size: 0.65em;
@@ -177,16 +175,11 @@ body {
     line-height: 1em;
 }
 
-.dark .card .details h4, .dark .card .details p  {
-    color: rgb(175, 165, 165);
-}
-
 .card .details p {
     color: #fff;
     opacity: 0.85;
     font-size: 0.8em;
 }
-
 
 .card .details .size {
     display: flex;
@@ -207,10 +200,6 @@ body {
     opacity: 0.65;
     cursor: pointer;
     transition: 0.5s;
-}
-
-.dark .details .size li {
-    color: rgb(175, 165, 165);
 }
 
 .card .details .size li:hover {
@@ -234,10 +223,6 @@ body {
     font-size: 1.7em;
 }
 
-.dark .card .details .group h2 {
-    color: rgb(175, 165, 165);
-}
-
 .card .details .group h2 sup {
     font-weight: 300;   
 }
@@ -259,7 +244,10 @@ body {
 
 .dark .card .details .group a {
     background: #1b3c52;
-    border: 2px solid rgb(175, 165, 165);
+    border: 2px solid rgb(175, 165, 165);    
+}
+
+.dark .details h3, .dark .card .details .group a, .dark .card .details .group h2, .dark .details .size li, .dark .card .details h4, .dark .card .details p {
     color: rgb(175, 165, 165);
 }
 
