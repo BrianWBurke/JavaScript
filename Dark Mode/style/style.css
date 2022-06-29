@@ -11,7 +11,7 @@ html, body {
     transition: 0.3s;
 }
 
-input[type='checkbox'] {
+input[type='checkbox'], .bi-moon, .dark .bi-sun {
     display: none;
 }
 
@@ -50,14 +50,6 @@ i:hover {
 .bi {
     font-size: 1.3rem;
     cursor: pointer;
-}
-
-.bi-moon {
-    display: none;
-}
-
-.dark .bi-sun {
-    display: none;
 }
 
 .dark .bi-moon {
@@ -233,10 +225,6 @@ body {
     opacity: 1;
 }
 
-.dark .card .details .size li:hover {
-    color:#1b3c52;
-    background: #4ba9e9;
-}
 
 .group {
     position: relative;
@@ -286,7 +274,7 @@ body {
     background: #fff;
 }
 
-.dark .card .details .group a:hover {
+.dark .card .details .group a:hover, .dark .card .details .size li:hover {
     color:#1b3c52;
     background: #4ba9e9;    
-}
+} 
